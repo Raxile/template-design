@@ -1,0 +1,26 @@
+.custom-btn {
+  height: 44px;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #b57fec;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 19.12px;
+  border: none;
+  font-family: Manrope;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .icon {
+    height: 18px;
+    width: 18px;
+  }
+}
+
+.custom-btn-primary {
+  background-color: #b57fec;
+}
+.custom-btn-secondary {
+  background-color: #ffffff;
+}

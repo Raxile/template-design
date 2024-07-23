@@ -1,0 +1,20 @@
+@import "~bootstrap/scss/bootstrap";
+@import "components";
+
+body {
+  background: linear-gradient(127.42deg, #580a97 8.7%, #270965 71.67%);
+}
+
+.header-text-section {
+  .header-text {
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 65.83px;
+    text-align: center;
+    color: #ffffff;
+    .active-text {
+      color: #b57fec;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.slider-container {
+  width: 75%;
+  margin: auto;
+}
+.slick-slide {
+  /* background-color: red; */
+  width: 100%;
+}
+.slick-active:nth-child(3) {
+  transform: scale(0.8);
+  background-color: red !important;
+}
+
+.slides {
+  width: 95% !important;
+  background-color: green;
+  height: 150px;
+  margin: 5px;
+}
+
+.slides h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
