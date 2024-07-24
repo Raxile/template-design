@@ -1,0 +1,105 @@
+.featured-slider-container {
+  .featured-slider-slide {
+    width: 95% !important;
+    background: #2c0c45;
+    border-radius: 24.83px;
+    padding: 8px;
+    height: 316px;
+    margin: 5px;
+    .separator-line {
+      margin: 10px 0px;
+      border: 1px solid #ffffff;
+      opacity: 0.5;
+    }
+    .title-container {
+      color: #ffffff;
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 800;
+      display: flex;
+      justify-content: space-between;
+      .title {
+        width: 75%;
+      }
+
+      .other-details {
+        border-left: 2px solid #ffffff;
+        padding-left: 4px;
+      }
+    }
+    .player-name-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      .player-name {
+        font-family: Azeret Mono;
+        font-weight: 400;
+
+        opacity: 0.7;
+        color: #ffffff;
+      }
+      .bid-price {
+        font-family: Manrope;
+        font-weight: 800;
+        color: #b57fec;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .dollar-icon {
+          color: #ffffff;
+        }
+      }
+    }
+    .slide-image-container {
+      width: 100%;
+      height: 55%;
+      .slide-image {
+        object-fit: cover;
+        border-radius: 14.9px;
+      }
+    }
+    .slider-thumbs-icon-container {
+      margin-top: 4px;
+      .thumbs-icon {
+        width: 20px;
+        height: 20px;
+      }
+      .text {
+        color: white;
+        font-weight: 800;
+        font-size: 12px;
+        padding: 0;
+      }
+    }
+    .slide-form-input-container {
+      width: 100%;
+      height: 30px;
+      border-radius: 11px;
+      background-color: rgba(#ffffff, 0.2);
+      input {
+        width: 85%;
+
+        background-color: transparent;
+        color: white;
+        border: none;
+        outline: none;
+        font-size: 12px;
+        padding-left: 12px;
+      }
+      ::placeholder {
+        color: white;
+        opacity: 1; /* Firefox */
+      }
+
+      ::-ms-input-placeholder {
+        /* Edge 12 -18 */
+        color: white;
+      }
+      .slide-form-icon {
+        color: #ffffff;
+        cursor: pointer;
+      }
+    }
+  }
+}

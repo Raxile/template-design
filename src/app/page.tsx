@@ -3,6 +3,7 @@ import HeaderTextSection from "@/components/HeaderTextSection";
 import Image from "next/image";
 import React from "react";
 import scrollComponentSvg from "@/assets/images/Frame.svg";
+import FeaturedSection from "@/components/FeaturedSection";
 
 const Home = () => {
   return (
@@ -13,11 +14,13 @@ const Home = () => {
         <Image
           src={scrollComponentSvg}
           alt="scrollComponentSvg"
-          className="w-100 h-100"
+          className="w-100 h-100 "
         />
       </section>
 
       {/* Featured Section */}
+
+      <FeaturedSection />
     </main>
   );
 };
